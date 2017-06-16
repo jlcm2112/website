@@ -1,31 +1,147 @@
-ul {
+nav {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     overflow: hidden;
     background-color: #333;
 }
-
-li {
-    float: left;
+#r {
+        float: right;
+        padding-right: 10px;
+        margin-top: -8px;
+        padding-bottom: 8px;
 }
-
-li a {
-    display: block;
+nav li {
+    float: left;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+nav li a {
+display:block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 16px;
+    padding-top: 16px;
     text-decoration: none;
+    font-size: 25px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+nav li a:hover {
     background-color: #111;
+    padding-bottom: 16px;
+}
+
+body li {
+        text-decoration: none;
+        font-family: 'Titillium Web', sans-serif;
+            font-size: 25px;
+                list-style-type: none;
+                text-align: center;
 }
 p {
-    font-family: "Wendy One", Times, serif;
+    font-family: 'Titillium Web', sans-serif;
+    margin:auto;
+    font-size: 25px;
+
+    padding-left: 20px;
+        padding-right: 20px;
+
+
 }
 h1 {
-    font-family: Georgia;
-    font-size: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    margin:auto;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    padding-top: 0px;
+    text-shadow: -2px 2px 3px #ff2d95;
+    padding-top: 30px;
+
 }
+h2 {
+        font-family: 'Titillium Web', sans-serif;
+            font-size: 35px;
+}
+body { 
+    background-image: url('preview.jpg');
+    background-size: 1600px 1200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right; 
+    margin:auto;
+    text-align: center;
+}
+article {
+  position: relative;
+  z-index: 1;
+}
+header {
+    padding-top: 70px;
+}
+div.transbox {
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: -1;
+
+  width: 50%;
+  background-color: #ffffff;
+  border: 2px solid black;
+  opacity: 0.75;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.hidden {
+    visibility: hidden;
+}
+nav {
+    margin: auto;
+    text-align: center;
+
+}
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 16px;
+   background-color: #101010;
+  text-align: right;
+  color: white;
+}
+ a {
+        text-decoration: none;
+}
+article h1{
+ font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+    margin:auto;
+    text-align: center;
+}
+article h2{
+        text-align: center;
+        font-size: 25px;
+
+}
+
+}
+article p{
+        text-align: left;
+
+}
+article li {
+        font-size: 25px;
+        text-align: center;
+
+}
+
+/* copy pastad for social media buttons */
