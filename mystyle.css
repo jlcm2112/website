@@ -22,6 +22,6 @@ li a {
 li a:hover {
     background-color: #111;
 }
-body {
-    font-family: 'Wendy One'
+p {
+    font-family: "Wendy One", Times, serif;
 }
